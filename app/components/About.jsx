@@ -13,8 +13,20 @@ var React = require('react');
 var About = (props) => {
   return (
     <div>
-      <h3>About</h3>
-      <p>Hello, welcome to the about page.</p>
+      <h1 className="text-centered">About</h1>
+      <p>Hello, and welcome. This is my first comprehensive React web app. There's been a ton to learn and it's certanily been enjoyable. Keep checking back to see what updates I make. Cheers, ~R</p>
+      <p>Here are some of the tools I used in building this project:</p>
+      <ul>
+        <li>
+          <a href="https://facebook.github.io/react/">React</a> - This was built with React. A framework developed at Facebook!
+        </li>
+        <li>
+          <a href="http://openweathermap.org/">Open Weather Map</a> - API to access weather around the world.
+        </li>
+        <li>
+          <a href="http://foundation.zurb.com/">Foundation</a> - An awesome CSS framework to provide styling.
+        </li>
+      </ul>
     </div>
   )
 };

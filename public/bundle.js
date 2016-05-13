@@ -26341,7 +26341,7 @@
 /* 247 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	var React = __webpack_require__(8);
 
@@ -26356,17 +26356,56 @@
 	// Stateless Functional Component of above code
 	var About = function About(props) {
 	  return React.createElement(
-	    'div',
+	    "div",
 	    null,
 	    React.createElement(
-	      'h3',
-	      null,
-	      'About'
+	      "h1",
+	      { className: "text-centered" },
+	      "About"
 	    ),
 	    React.createElement(
-	      'p',
+	      "p",
 	      null,
-	      'Hello, welcome to the about page.'
+	      "Hello, and welcome. This is my first comprehensive React web app. There's been a ton to learn and it's certanily been enjoyable. Keep checking back to see what updates I make. Cheers, ~R"
+	    ),
+	    React.createElement(
+	      "p",
+	      null,
+	      "Here are some of the tools I used in building this project:"
+	    ),
+	    React.createElement(
+	      "ul",
+	      null,
+	      React.createElement(
+	        "li",
+	        null,
+	        React.createElement(
+	          "a",
+	          { href: "https://facebook.github.io/react/" },
+	          "React"
+	        ),
+	        " - This was built with React. A framework developed at Facebook!"
+	      ),
+	      React.createElement(
+	        "li",
+	        null,
+	        React.createElement(
+	          "a",
+	          { href: "http://openweathermap.org/" },
+	          "Open Weather Map"
+	        ),
+	        " - API to access weather around the world."
+	      ),
+	      React.createElement(
+	        "li",
+	        null,
+	        React.createElement(
+	          "a",
+	          { href: "http://foundation.zurb.com/" },
+	          "Foundation"
+	        ),
+	        " - An awesome CSS framework to provide styling."
+	      )
 	    )
 	  );
 	};
