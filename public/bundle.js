@@ -25024,7 +25024,7 @@
 	      if (isLoading) {
 	        return React.createElement(
 	          'h3',
-	          null,
+	          { className: 'text-center' },
 	          'Fetching Weather...'
 	        );
 	      } else if (temp && location) {
@@ -25037,7 +25037,7 @@
 	      null,
 	      React.createElement(
 	        'h1',
-	        null,
+	        { className: 'text-center' },
 	        'Get Weather'
 	      ),
 	      React.createElement(WeatherForm, { onSearch: this.handleSearch }),
@@ -25086,7 +25086,7 @@
 	          null,
 	          React.createElement(
 	            "button",
-	            null,
+	            { className: "button expanded hollow" },
 	            "Get Weather"
 	          )
 	        )
@@ -25101,7 +25101,7 @@
 /* 227 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	var React = __webpack_require__(8);
 
@@ -25122,12 +25122,20 @@
 	  var location = _ref.location;
 
 	  return React.createElement(
-	    'h3',
-	    null,
-	    'It\'s ',
-	    temp,
-	    ' in ',
-	    location
+	    "h3",
+	    { className: "text-center" },
+	    "It's ",
+	    React.createElement(
+	      "strong",
+	      null,
+	      temp
+	    ),
+	    " in ",
+	    React.createElement(
+	      "strong",
+	      null,
+	      location
+	    )
 	  );
 	};
 
@@ -26360,7 +26368,7 @@
 	    null,
 	    React.createElement(
 	      "h1",
-	      { className: "text-centered" },
+	      { className: "text-center" },
 	      "About"
 	    ),
 	    React.createElement(
@@ -26440,7 +26448,7 @@
 	    null,
 	    React.createElement(
 	      'h1',
-	      { className: 'text-centered' },
+	      { className: 'text-center' },
 	      'Examples'
 	    ),
 	    React.createElement(
