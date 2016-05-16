@@ -26554,7 +26554,6 @@
 	      React.createElement(
 	        'li',
 	        null,
-	        '// Make sure to use %20 for spaces',
 	        React.createElement(
 	          Link,
 	          { to: '/?location=Santa%20Cruz,CA' },
