@@ -1,0 +1,16 @@
+$space-large: 2.5rem;
+
+// ++++++++++
+// COLORS
+
+$header-color: purple;
+
+.page-title {
+  color: $header-color;
+  margin-top: $space-large;
+  margin-bottom: $space-large;
+}
+
+input[type=search] {
+  box-shadow: none;
+}
