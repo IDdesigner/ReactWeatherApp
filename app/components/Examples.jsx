@@ -17,6 +17,7 @@ var Examples = (props) => {
       <p>Here are a few examples to try out:</p>
       <ol>
         <li>
+          // Make sure to use %20 for spaces
           <Link to="/?location=Santa%20Cruz,CA">Santa Cruz, CA</Link>
         </li>
         <li>
